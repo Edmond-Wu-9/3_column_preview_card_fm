@@ -41,6 +41,7 @@ button{
     padding-right: 2rem;
     border-radius: 2rem;
     font-family: 'Lexend Deca', sans-serif;
+    border: 2px solid var(--very-light-gray-background-headings-buttons);
 }
 
 .sedan-container{
@@ -97,6 +98,21 @@ button{
     padding: 2rem;
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;;
+}
+
+.sedan-button:hover{
+    background-color: var(--bright-orange);
+    color: var(--very-light-gray-background-headings-buttons);
+}
+
+.suv-button:hover{
+    background-color: var(--dark-cyan);
+    color: var(--very-light-gray-background-headings-buttons);
+}
+
+.luxury-button:hover{
+    background-color: var(--very-dark-cyans);
+    color: var(--very-light-gray-background-headings-buttons);
 }
 
 @media only screen and (min-width:700px){ /*FIGURE OUT MEDIA QUERY SIZE*/
