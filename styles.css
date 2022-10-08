@@ -1,0 +1,137 @@
+/*font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;*/
+
+.attribution { font-size: 11px; text-align: center; } /*Given due to footer*/
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white-paragraphs-: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    padding: 2rem;
+}
+
+button{
+    border: 1px white;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedan-container{
+    background-color: var(--bright-orange);
+    padding: 2rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.sedan-logo,
+.suv-logo,
+.luxury-logo{
+    margin-bottom: 1rem;
+    margin-top: 0.75rem;
+}
+
+.sedan,
+.suv,
+.luxury{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+    color: var(--very-light-gray-background-headings-buttons);
+    margin-bottom: 1rem;
+}
+
+.luxury-descrip,
+.suv-descrip,
+.sedan-descrip{
+    color: var(--transparent-white-paragraphs-);
+    margin-bottom: 2rem;
+    max-width: 200px;
+    font-size: 15px;
+}
+
+.sedan-button{
+    color: var(--bright-orange);
+}
+
+.luxury-button{
+    color: var(--very-dark-cyan);
+}
+
+.suv-button{
+    color: var(--dark-cyan);
+}
+
+.suv-container{
+    background-color: var(--dark-cyan);
+    padding: 2rem;
+}
+
+.luxury-container{
+    background-color: var(--very-dark-cyan);
+    padding: 2rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;;
+}
+
+@media only screen and (min-width:700px){ /*FIGURE OUT MEDIA QUERY SIZE*/
+    
+    main{
+        height: 100vh;
+    }
+    
+
+    article{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 1000px;
+    }
+
+    .sedan-container{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius:0.5rem;
+    }
+
+    .luxury-container{
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 0.5rem;
+    }
+    
+    .luxury-descrip,
+    .suv-descrip,
+    .sedan-descrip{
+        margin-bottom: 5rem;
+    }
+
+    .sedan,
+    .suv,
+    .luxury{
+        margin-bottom: 2rem;
+    }
+}
