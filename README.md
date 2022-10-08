@@ -29,8 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Live Site URL: [https://edmond-wu-9.github.io/3_column_preview_card_fm/]
 ### Built with
 
 - Semantic HTML5 markup
