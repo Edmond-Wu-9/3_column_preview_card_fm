@@ -24,7 +24,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 120vh;
+    height: 100vh;
 }
 
 article{
@@ -115,7 +115,7 @@ button{
     color: var(--very-light-gray-background-headings-buttons);
 }
 
-@media only screen and (min-width:700px){ /*FIGURE OUT MEDIA QUERY SIZE*/
+@media only screen and (min-width:700px){
     
     main{
         height: 100vh;
