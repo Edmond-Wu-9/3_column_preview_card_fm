@@ -18,13 +18,17 @@ font-family: 'Lexend Deca', sans-serif;*/
     box-sizing: border-box;
 }
 
+html{
+    height: -webkit-fill-available;
+}
+
 main{
     font-family: 'Lexend Deca', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     height: -webkit-fill-available;
 }
 
